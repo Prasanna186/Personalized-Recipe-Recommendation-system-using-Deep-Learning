@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Recommender Bot</h1>
+        <form id="recommendation-form">
+            <label for="ingredients">Enter ingredients you have (comma-separated):</label>
+            <input type="text" id="ingredients" name="ingredients" required>
+            
+            <label for="max-calories">Enter maximum calories (optional):</label>
+            <input type="number" id="max-calories" name="max_calories">
+            
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        <div id="recommendations"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
