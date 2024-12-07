@@ -1,0 +1,1 @@
+In Personalized Recipe Recommendation system project , Content-based deep learning technique is used in which the user can give input as the list of ingredients and if needed the user can also give input as number of calories required for particular recipe Then the system will recommend the list of recipes that matches with the user input
